@@ -1,1 +1,0 @@
-//const res1 = await axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=9a596c5a40ab8f52b100da0e8d676a48&units=metric`);
