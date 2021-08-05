@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sidebar {
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: inherit;
+  background-image: url("./components/images/pexels-egil-sjøholt-1906658.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1pc;
+}
+.rside {
+  background-image: url("./components/images/pexels-francesco-ungaro-998641.jpg");
+  background-size: cover;
+  border-radius: 1pc;
+  padding: 5pc;
+}
+.time {
+  padding: 2pc;
+  padding-bottom: 1pc;
+}
+.date {
+  text-align: right;
+}
+.tick {
+  font-size: 3pc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.weather {
+  font-size: 3.2pc;
+  font-family: "Times New Roman", Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temperature {
+  background-color: rgba(179, 186, 194, 0.336);
+  padding: 1pc;
+  border-radius: 2pc;
+  font-size: 2.5pc;
+  width: fit-content;
+  justify-content: center;
+  font-family: cursive;
+  padding-bottom: 0.5pc;
+  color: rgb(230, 210, 157);
+}
+.weatherinfo {
+  font-size: 1.7pc;
+  color: rgb(185, 223, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.units {
+  font-size: 1.3pc;
+}
+.city {
+  font-size: 2.5pc;
+  padding: 1pc;
+  padding-bottom: 0pc;
+}
+.country {
+  font-size: 1.8pc;
+  padding-left: 2pc;
+}
+.icon {
+  width: auto;
+  margin-bottom: 1pc;
+}
+sup {
+  font-size: 1pc;
+}
+
+.weatherheading {
+  font-size: 2.5pc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 3pc;
+  margin-top: auto;
+  color: rgb(126, 227, 252);
 }
